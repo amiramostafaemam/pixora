@@ -1,10 +1,11 @@
-import { Show, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
+import { PricingTable, Show, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
 import  HomeHeroSection  from "@/components/HomeHeroSection";
 import GalleryShowcaseSection from "@/components/GalleryShowcaseSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
+import { PricingSection } from "@/components/PricingSection";
 // import HomeHeroSection from "@/components/HomeHeroSection";
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
       <GalleryShowcaseSection/>
       <HowItWorksSection/>
       <Testimonials/>
+      <PricingSection/>
       <Footer/>
     </main>
   );
